@@ -24,10 +24,10 @@ header{
 
 }
 .ListItem{
-    text-align: center;
+text-align: center;
 margin: 1.3rem;
 list-style: none;
-font-size: 1.4rem;
+
 }
 body{
     background-color: brown;
@@ -36,6 +36,7 @@ main{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-direction: column;
 
 }
 .container{
@@ -51,17 +52,19 @@ main{
 div{
     border: solid rgb(139, 117, 46);
     background-color: rgb(198, 181, 124);
-    width: 50%;
-    height: 30vh;
+    width: 60%;
+    height: 40vh;
     /* justify-content: center; */
    text-align: center;
-   /* padding: 2rem 2rem 2rem 2rem; */
+   font-size: 1.6rem;
+
+   padding: 2rem 2rem 2rem 2rem;
 }
 
-@media (min-width:201px) and
+@media (min-width:300px) and
 (max-width:500px) {
   h1{
-    margin-bottom: 3rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: deeppink;
   }
   header{

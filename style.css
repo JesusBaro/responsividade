@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 3em;
+    background-color: bisque; 
+}
+header{
+    /* border: solid black; */
+    background-color: rgba(137, 43, 226, 0.499);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    color: aliceblue;
+}
+.HeaderUl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.ListItem{
+    text-align: center;
+margin: 1.3rem;
+list-style: none;
+font-size: 1.4rem;
+}
+body{
+    background-color: brown;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border: solid seagreen;
+    background-color: rgba(127, 255, 212, 0.627);
+    width: 100%;
+    height: 190vh;
+}
+div{
+    border: solid rgb(139, 117, 46);
+    background-color: rgb(198, 181, 124);
+    width: 50%;
+    height: 30vh;
+    /* justify-content: center; */
+   text-align: center;
+   /* padding: 2rem 2rem 2rem 2rem; */
+}
+
+@media (min-width:201px) and
+(max-width:500px) {
+  h1{
+    margin-bottom: 3rem;
+    background-color: deeppink;
+  }
+  header{
+    /* border: solid black; */
+    background-color: rgba(137, 43, 226, 0.499);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    color: aliceblue;
+}
+.HeaderUl{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.ListItem{
+    text-align: center;
+margin: 1.1rem;
+list-style: none;
+font-size: 1rem;
+}
+  body{
+    background-color: wheat;
+  }
+main{
+/* background-color: blueviolet; */
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 0.9em;
+width: 100vw;
+    }
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        border: solid rgb(105, 247, 29);
+        background-color: rgba(30, 26, 255, 0.627);
+        width: 80%;
+        height: 290vh;
+    }
+.div{
+    border: solid rgb(255, 117, 117);
+    background-color: rgb(164, 255, 194);
+    width: 80%;
+    height: 45vh;
+    justify-content: space-between;
+   text-align: center;
+}    
+
+}

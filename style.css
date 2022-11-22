@@ -18,11 +18,14 @@ header{
     color: aliceblue;
     justify-content: center;
     align-items: center;
+
 }
 .HeaderNav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+
 }
 .HeaderUl{
     display: flex;
@@ -31,14 +34,13 @@ header{
 
 }
 .ListItem{
-align-items: center;
 text-align: center;
 margin: 1.1rem;
+/* margin-top: 3rem; */
 list-style: none;
-font-size: 1.7rem;
+font-size: 1.4rem;
 font-weight: 700;
 text-transform: uppercase;
-
 }
 body{
     background-color: brown;
@@ -58,20 +60,24 @@ main{
     border: solid seagreen;
     background-color: rgba(127, 255, 212, 0.627);
     width: 80%;
-    height: 190vh;
+    height: 290vh;
 }
 div{
     border: solid rgb(139, 117, 46);
     background-color: rgb(198, 181, 124);
     width: 60%;
     height: 40vh;
-    /* justify-content: center; */
-   text-align: center;
-   font-size: 1.6rem;
+    display: flex;
+    justify-content: center; 
+}
+p{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem 2rem 0 2rem;
 
-   padding: 2rem 2rem 2rem 2rem;
 }
 
+/* ---------------------------------- */
 @media (min-width:300px) and
 (max-width:500px) {
   h1{
@@ -138,8 +144,12 @@ width: 100vw;
     background-color: rgb(164, 255, 194);
     width: 80%;
     height: 45vh;
-    font-size: 1rem;
     justify-content: space-between;
-   text-align: center;
 }    
+p{
+    text-align: center;
+    padding: 1rem 2rem 0 2rem;
+    font-size: 1rem;
+}
+
 }

@@ -4,18 +4,25 @@
     box-sizing: border-box;
 }
 h1{
-    font-size: 3em;
-    background-color: bisque; 
+    font-size: 2.5em;
+    background-color: rgb(127, 97, 60); 
+    flex-direction: column;
+    display: flex;
+    text-align: center;
 }
 header{
     /* border: solid black; */
     background-color: rgba(137, 43, 226, 0.499);
     width: 100%;
     height: 30vh;
-    display: flex;
-    /* justify-content: space-evenly; */
-    align-items: center;
     color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.HeaderNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .HeaderUl{
     display: flex;
@@ -24,9 +31,13 @@ header{
 
 }
 .ListItem{
+align-items: center;
 text-align: center;
-margin: 1.3rem;
+margin: 1.1rem;
 list-style: none;
+font-size: 1.7rem;
+font-weight: 700;
+text-transform: uppercase;
 
 }
 body{
@@ -46,7 +57,7 @@ main{
     flex-direction: column;
     border: solid seagreen;
     background-color: rgba(127, 255, 212, 0.627);
-    width: 100%;
+    width: 80%;
     height: 190vh;
 }
 div{
@@ -64,18 +75,29 @@ div{
 @media (min-width:300px) and
 (max-width:500px) {
   h1{
-    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
     background-color: deeppink;
-  }
+        font-size: 2em;
+        background-color: rgb(127, 97, 60); 
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
   header{
     /* border: solid black; */
     background-color: rgba(137, 43, 226, 0.499);
     width: 100%;
-    height: 30vh;
-    display: flex;
-    /* justify-content: space-evenly; */
+    height: 20vh;
+    /* display: flex;
+    justify-content: center; */
     align-items: center;
     color: aliceblue;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.HeaderNav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .HeaderUl{
     display: flex;
@@ -116,8 +138,8 @@ width: 100vw;
     background-color: rgb(164, 255, 194);
     width: 80%;
     height: 45vh;
+    font-size: 1rem;
     justify-content: space-between;
    text-align: center;
 }    
-
 }
